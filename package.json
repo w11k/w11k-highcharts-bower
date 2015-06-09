@@ -1,0 +1,28 @@
+{
+  "name": "w11k-highcharts-bower",
+  "version": "0.0.2",
+
+  "description": "Distribution Repository of w11k-highcharts",
+  "keywords": [ "angular", "angularjs", "directive", "charts", "charting", "graph" ],
+  "homepage": "https://github.com/w11k/w11k-highcharts",
+  "bugs": "https://github.com/w11k/w11k-highcharts/issues",
+
+  "author": {
+    "name": "w11k GmbH",
+    "url": "http://www.w11k.de"
+  },
+  "contributors": [
+    "Kai Henzler",
+    "Pascal Ockert",
+    "Philipp Burgmer"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pburgmer/w11k-highcharts-bower.git"
+  },
+
+  "licenses": [{
+      "type": "MIT"
+  }]
+}
