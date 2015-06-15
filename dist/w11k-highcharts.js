@@ -1,5 +1,5 @@
 /**
- * w11k-highcharts - v0.0.1 - 2015-06-09
+ * w11k-highcharts - v0.0.2 - 2015-06-15
  * https://github.com/w11k/w11k-highcharts
  *
  * Copyright (c) 2015 w11k GmbH
@@ -15,7 +15,7 @@ angular.module('w11k-highcharts', []);
  * @description
  * Directive to display a Highcharts chart
  */
-angular.module('w11k-highcharts').directive('w11kHighcharts', function ($q, $window) {
+angular.module('w11k-highcharts').directive('w11kHighcharts', ['$q', '$window', function ($q, $window) {
 
   return {
     template: '<div></div>',
@@ -108,4 +108,4 @@ angular.module('w11k-highcharts').directive('w11kHighcharts', function ($q, $win
 
   };
 
-});
+}]);
